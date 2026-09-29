@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" fill="none">
+  <defs>
+    <radialGradient id="stt-bg" cx="50%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#141720" />
+      <stop offset="70%" stop-color="#0A0B0D" />
+      <stop offset="100%" stop-color="#07080A" />
+    </radialGradient>
+    <radialGradient id="mic-pulse" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#EF4444" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#EF4444" stop-opacity="0" />
+    </radialGradient>
+    <pattern id="stt-dots" x="0" y="0" width="32" height="32" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#FFFFFF" fill-opacity="0.04" />
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="720" fill="url(#stt-bg)" />
+  <rect width="1280" height="720" fill="url(#stt-dots)" />
+
+  <!-- STUDIO SECTION HEADER -->
+  <g transform="translate(80, 50)">
+    <text x="0" y="0" font-family="'JetBrains Mono', monospace" font-size="11" fill="#0071E3" letter-spacing="1.5">[ S¹ ACOUSTIC RECEPTOR ]</text>
+    <text x="0" y="32" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', sans-serif" font-size="28" font-weight="600" fill="#FFFFFF" letter-spacing="-0.5">Neural Speech to Text</text>
+    <text x="0" y="54" font-family="-apple-system, system-ui, sans-serif" font-size="13" fill="#86868B">Zero-loss acoustic transcription with contextual punctuation and clean paragraphing.</text>
+
+    <!-- Mode Selector Right -->
+    <g transform="translate(900, 10)">
+      <rect x="0" y="0" width="220" height="34" rx="12" fill="#151619" stroke="#FFFFFF" stroke-opacity="0.08" stroke-width="1" />
+      <rect x="3" y="3" width="105" height="28" rx="9" fill="#0071E3" />
+      <text x="55" y="21" font-family="-apple-system, system-ui, sans-serif" font-size="11" font-weight="600" fill="#FFFFFF" text-anchor="middle">Live Mic</text>
+      <text x="162" y="21" font-family="-apple-system, system-ui, sans-serif" font-size="11" font-weight="500" fill="#A1A1A6" text-anchor="middle">Upload File</text>
+    </g>
+  </g>
+
+  <!-- LEFT COLUMN: LIVE RECORDING & SIGNAL CAPTURE (WIDTH: 440px) -->
+  <g transform="translate(80, 140)">
+    <rect x="0" y="0" width="440" height="520" rx="16" fill="#151619" stroke="#FFFFFF" stroke-opacity="0.09" stroke-width="1" />
+
+    <!-- Pulse Halo around Mic -->
+    <circle cx="220" cy="160" r="85" fill="url(#mic-pulse)" />
+    <circle cx="220" cy="160" r="56" fill="#EF4444" fill-opacity="0.15" stroke="#EF4444" stroke-opacity="0.5" stroke-width="1.5" />
+    
+    <!-- Red Record Button -->
+    <circle cx="220" cy="160" r="42" fill="#EF4444" filter="drop-shadow(0 0 25px rgba(239,68,68,0.5))" />
+    <!-- Square Stop Icon -->
+    <rect x="208" y="148" width="24" height="24" rx="5" fill="#FFFFFF" />
+
+    <!-- Status Text -->
+    <text x="220" y="240" font-family="-apple-system, system-ui, sans-serif" font-size="16" font-weight="600" fill="#FFFFFF" text-anchor="middle">Capturing Audio Signal...</text>
+    <text x="220" y="262" font-family="-apple-system, system-ui, sans-serif" font-size="12" fill="#86868B" text-anchor="middle">Speak clearly into microphone. Real-time neural decoding active.</text>
+
+    <!-- Recording Timer & Level Meter -->
+    <g transform="translate(70, 300)">
+      <!-- Timer -->
+      <circle cx="6" cy="6" r="3.5" fill="#EF4444" />
+      <text x="18" y="10" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="600" fill="#EF4444">REC</text>
+      <text x="300" y="10" font-family="'JetBrains Mono', monospace" font-size="14" font-weight="600" fill="#FFFFFF" text-anchor="end">00:18.4</text>
+
+      <!-- Decibel Level Bar -->
+      <rect x="0" y="24" width="300" height="8" rx="4" fill="#FFFFFF" fill-opacity="0.08" />
+      <rect x="0" y="24" width="210" height="8" rx="4" fill="#0071E3" filter="drop-shadow(0 0 8px rgba(0,113,227,0.6))" />
+    </g>
+
+    <!-- Formatting Modes (Verbatim vs Clean) -->
+    <g transform="translate(24, 385)">
+      <line x1="0" y1="0" x2="392" y2="0" stroke="#FFFFFF" stroke-opacity="0.06" stroke-width="1" />
+
+      <text x="0" y="22" font-family="'JetBrains Mono', monospace" font-size="10" fill="#86868B" letter-spacing="1">OUTPUT FORMATTING MODE:</text>
+
+      <!-- Verbatim Card (Active) -->
+      <g transform="translate(0, 36)">
+        <rect x="0" y="0" width="190" height="60" rx="10" fill="#0F1012" stroke="#0071E3" stroke-width="1.5" />
+        <text x="14" y="24" font-family="-apple-system, system-ui, sans-serif" font-size="11.5" font-weight="600" fill="#FFFFFF">Verbatim Precision</text>
+        <text x="14" y="42" font-family="-apple-system, system-ui, sans-serif" font-size="10" fill="#86868B">Exact speech &amp; pauses</text>
+      </g>
+
+      <!-- Clean Executive Card -->
+      <g transform="translate(202, 36)">
+        <rect x="0" y="0" width="190" height="60" rx="10" fill="#0F1012" stroke="#FFFFFF" stroke-opacity="0.08" stroke-width="1" />
+        <text x="14" y="24" font-family="-apple-system, system-ui, sans-serif" font-size="11.5" font-weight="600" fill="#A1A1A6">Clean Executive</text>
+        <text x="14" y="42" font-family="-apple-system, system-ui, sans-serif" font-size="10" fill="#86868B">Filtered hesitations</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- RIGHT COLUMN: REAL-TIME TRANSCRIPTION BUFFER (WIDTH: 660px) -->
+  <g transform="translate(540, 140)">
+    <rect x="0" y="0" width="660" height="520" rx="16" fill="#151619" stroke="#FFFFFF" stroke-opacity="0.09" stroke-width="1" />
+
+    <!-- Buffer Header -->
+    <g transform="translate(24, 24)">
+      <!-- File Text Icon -->
+      <rect x="0" y="0" width="14" height="16" rx="2" fill="none" stroke="#0071E3" stroke-width="1.5" />
+      <text x="24" y="13" font-family="'JetBrains Mono', monospace" font-size="11" fill="#FFFFFF" letter-spacing="1">TRANSCRIPTION BUFFER</text>
+      <text x="612" y="13" font-family="'JetBrains Mono', monospace" font-size="11" fill="#86868B" text-anchor="end">48 words · 276 chars</text>
+      <line x1="0" y1="26" x2="612" y2="26" stroke="#FFFFFF" stroke-opacity="0.06" stroke-width="1" />
+    </g>
+
+    <!-- Transcript Content Box -->
+    <rect x="24" y="70" width="612" height="360" rx="12" fill="#0F1012" stroke="#FFFFFF" stroke-opacity="0.08" stroke-width="1" />
+
+    <g transform="translate(44, 110)">
+      <text x="0" y="0" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif" font-size="15" fill="#FFFFFF" line-height="28">
+        "Welcome to the high-fidelity acoustic testing suite.
+      </text>
+      <text x="0" y="32" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif" font-size="15" fill="#FFFFFF" line-height="28">
+        We have verified zero-loss transcription across all frequency bands.
+      </text>
+      <text x="0" y="64" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif" font-size="15" fill="#FFFFFF" line-height="28">
+        The contextual neural engine automatically identifies sentence boundaries,
+      </text>
+      <text x="0" y="96" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif" font-size="15" fill="#FFFFFF" line-height="28">
+        formats numerical data, and preserves speaker nuance without artificial artifacts."
+      </text>
+      
+      <!-- Blinking Cursor -->
+      <rect x="420" y="78" width="2" height="20" fill="#0071E3" />
+    </g>
+
+    <!-- Bottom Actions Toolbar -->
+    <g transform="translate(24, 455)">
+      <line x1="0" y1="0" x2="612" y2="0" stroke="#FFFFFF" stroke-opacity="0.06" stroke-width="1" />
+
+      <!-- Copy Button -->
+      <rect x="0" y="14" width="75" height="34" rx="8" fill="#FFFFFF" fill-opacity="0.06" stroke="#FFFFFF" stroke-opacity="0.1" stroke-width="1" />
+      <text x="37" y="35" font-family="-apple-system, system-ui, sans-serif" font-size="12" fill="#FFFFFF" text-anchor="middle">Copy</text>
+
+      <!-- Export Formats -->
+      <g transform="translate(86, 14)">
+        <rect x="0" y="0" width="138" height="34" rx="8" fill="#0F1012" stroke="#FFFFFF" stroke-opacity="0.08" stroke-width="1" />
+        <text x="24" y="21" font-family="'JetBrains Mono', monospace" font-size="11" fill="#A1A1A6" text-anchor="middle">.TXT</text>
+        <text x="69" y="21" font-family="'JetBrains Mono', monospace" font-size="11" fill="#A1A1A6" text-anchor="middle">.SRT</text>
+        <text x="114" y="21" font-family="'JetBrains Mono', monospace" font-size="11" fill="#A1A1A6" text-anchor="middle">.JSON</text>
+      </g>
+
+      <!-- Direct Bilateral Bridge: Synthesize with AI Voice -->
+      <g transform="translate(425, 14)">
+        <rect x="0" y="0" width="187" height="34" rx="8" fill="#0071E3" filter="drop-shadow(0 3px 12px rgba(0,113,227,0.35))" />
+        <text x="84" y="22" font-family="-apple-system, system-ui, sans-serif" font-size="12" font-weight="600" fill="#FFFFFF" text-anchor="middle">Synthesize with AI Voice</text>
+        <!-- Arrow Right -->
+        <path d="M165 17 L171 17 M168 14 L171 17 L168 20" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+      </g>
+    </g>
+  </g>
+</svg>

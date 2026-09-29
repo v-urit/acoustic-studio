@@ -1,0 +1,201 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" fill="none">
+  <defs>
+    <radialGradient id="mobile-bg" cx="50%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#141720" />
+      <stop offset="70%" stop-color="#0A0B0D" />
+      <stop offset="100%" stop-color="#07080A" />
+    </radialGradient>
+    <pattern id="mobile-dots" x="0" y="0" width="32" height="32" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#FFFFFF" fill-opacity="0.04" />
+    </pattern>
+    <linearGradient id="phone-sheen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#333333" />
+      <stop offset="100%" stop-color="#1A1A1A" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="720" fill="url(#mobile-bg)" />
+  <rect width="1280" height="720" fill="url(#mobile-dots)" />
+
+  <!-- SECTION HEADER -->
+  <g transform="translate(80, 50)">
+    <text x="0" y="0" font-family="'JetBrains Mono', monospace" font-size="11" fill="#0071E3" letter-spacing="1.5">[ ADAPTIVE RESPONSIVENESS ]</text>
+    <text x="0" y="32" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', sans-serif" font-size="28" font-weight="600" fill="#FFFFFF" letter-spacing="-0.5">Mobile &amp; Tablet Precision Architecture</text>
+    <text x="0" y="54" font-family="-apple-system, system-ui, sans-serif" font-size="13" fill="#86868B">Ultra-compact frosted-glass pill navbar with icon-only mobile layout and touch-optimized controls.</text>
+  </g>
+
+  <!-- DEVICE 1: MOBILE DARK MODE (LEFT) -->
+  <g transform="translate(240, 130)">
+    <!-- Phone Outer Chassis -->
+    <rect x="0" y="0" width="340" height="540" rx="36" fill="url(#phone-sheen)" stroke="#FFFFFF" stroke-opacity="0.15" stroke-width="2" filter="drop-shadow(0 20px 40px rgba(0,0,0,0.8))" />
+    <!-- Screen Bezel -->
+    <rect x="8" y="8" width="324" height="524" rx="28" fill="#0F1012" />
+
+    <!-- Speaker Notch / Dynamic Island -->
+    <rect x="122" y="14" width="80" height="18" rx="9" fill="#000000" />
+    <circle cx="185" cy="23" r="3.5" fill="#1C1C1E" />
+
+    <!-- MOBILE FLOATING FROSTED GLASS NAVBAR (ICON-ONLY AS REQUESTED) -->
+    <g transform="translate(32, 42)">
+      <!-- Left Asterisk Icon -->
+      <rect x="0" y="0" width="32" height="32" rx="10" fill="#151619" fill-opacity="0.8" stroke="#FFFFFF" stroke-opacity="0.12" stroke-width="1" />
+      <g transform="translate(16, 16)" stroke="#FFFFFF" stroke-width="1.6" stroke-linecap="round">
+        <line x1="0" y1="-6" x2="0" y2="6" />
+        <line x1="-6" y1="0" x2="6" y2="0" />
+        <line x1="-4" y1="-4" x2="4" y2="4" />
+        <line x1="-4" y1="4" x2="4" y2="-4" />
+      </g>
+
+      <!-- Center Nav Pill (5 Icons) -->
+      <rect x="38" y="0" width="184" height="32" rx="10" fill="#151619" fill-opacity="0.85" stroke="#FFFFFF" stroke-opacity="0.12" stroke-width="1" />
+      
+      <!-- Icon 1: Active TTS -->
+      <rect x="41" y="3" width="32" height="26" rx="7" fill="#0071E3" />
+      <!-- Waveform Icon -->
+      <path d="M54 16 L54 16 M57 13 L57 19 M60 10 L60 22 M63 14 L63 18" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" />
+
+      <!-- Icon 2: STT Mic -->
+      <circle cx="86" cy="14" r="3.5" stroke="#A1A1A6" stroke-width="1.5" />
+      <path d="M86 18 L86 21" stroke="#A1A1A6" stroke-width="1.5" />
+
+      <!-- Icon 3: Voice Lab Sparkles -->
+      <path d="M117 11 L119 16 L124 16 L120 19 L122 24 L117 21 L112 24 L114 19 L110 16 L115 16 Z" fill="#A1A1A6" transform="scale(0.65) translate(60, -2)" />
+
+      <!-- Icon 4: Personas -->
+      <circle cx="150" cy="13" r="3.5" stroke="#A1A1A6" stroke-width="1.5" />
+      <path d="M144 22 C144 19 147 18 150 18 C153 18 156 19 156 22" stroke="#A1A1A6" stroke-width="1.5" fill="none" />
+
+      <!-- Icon 5: Library Archive -->
+      <rect x="178" y="11" width="12" height="11" rx="2" stroke="#A1A1A6" stroke-width="1.5" fill="none" />
+
+      <!-- Right: Theme Switcher -->
+      <rect x="228" y="0" width="32" height="32" rx="10" fill="#151619" fill-opacity="0.8" stroke="#FFFFFF" stroke-opacity="0.12" stroke-width="1" />
+      <circle cx="244" cy="16" r="4.5" fill="#0071E3" />
+    </g>
+
+    <!-- Mobile Hero Content Inside Phone -->
+    <g transform="translate(24, 88)">
+      <text x="138" y="24" font-family="'JetBrains Mono', monospace" font-size="8.5" fill="#0071E3" text-anchor="middle">24kHz GEMINI 3.8 CORE</text>
+      
+      <text x="138" y="52" font-family="-apple-system, system-ui, sans-serif" font-size="24" font-weight="300" fill="#FFFFFF" text-anchor="middle">
+        Acoustic <tspan font-weight="600" fill="#0071E3">Studio.</tspan>
+      </text>
+
+      <!-- Mini 3D Sphere -->
+      <circle cx="138" cy="120" r="40" fill="url(#orb-core)" filter="drop-shadow(0 0 20px rgba(0,113,227,0.5))" />
+      <ellipse cx="128" cy="106" rx="14" ry="8" fill="#FFFFFF" fill-opacity="0.4" />
+
+      <!-- Mobile Script Card -->
+      <rect x="0" y="180" width="276" height="140" rx="12" fill="#151619" stroke="#FFFFFF" stroke-opacity="0.08" stroke-width="1" />
+      <text x="14" y="202" font-family="'JetBrains Mono', monospace" font-size="9" fill="#86868B">SPEECH SCRIPT</text>
+      
+      <!-- Text snippet -->
+      <text x="14" y="226" font-family="-apple-system, system-ui, sans-serif" font-size="11" fill="#FFFFFF">"A quiet dawn in the mountains."</text>
+      <text x="14" y="244" font-family="-apple-system, system-ui, sans-serif" font-size="11" fill="#0071E3">&lt;breath&gt; Natural human cadence.</text>
+
+      <!-- Mobile Synthesize Button -->
+      <rect x="14" y="270" width="248" height="34" rx="8" fill="#0071E3" />
+      <text x="138" y="291" font-family="-apple-system, system-ui, sans-serif" font-size="11" font-weight="600" fill="#FFFFFF" text-anchor="middle">Synthesize 24kHz Master</text>
+
+      <!-- Mobile Waveform Player Card -->
+      <rect x="0" y="332" width="276" height="85" rx="12" fill="#151619" stroke="#0071E3" stroke-opacity="0.3" stroke-width="1" />
+      <text x="14" y="352" font-family="-apple-system, system-ui, sans-serif" font-size="10.5" font-weight="600" fill="#FFFFFF">Kore Persona</text>
+      <text x="262" y="352" font-family="'JetBrains Mono', monospace" font-size="9.5" fill="#0071E3" text-anchor="end">00:04.2</text>
+      
+      <!-- Mini waveform lines -->
+      <g transform="translate(14, 370)" stroke="#0071E3" stroke-width="2" stroke-linecap="round">
+        <line x1="4" y1="-4" x2="4" y2="4" />
+        <line x1="12" y1="-8" x2="12" y2="8" />
+        <line x1="20" y1="-14" x2="20" y2="14" />
+        <line x1="28" y1="-7" x2="28" y2="7" />
+        <line x1="36" y1="-12" x2="36" y2="12" />
+        <line x1="44" y1="-16" x2="44" y2="16" />
+        <line x1="52" y1="-8" x2="52" y2="8" />
+        <line x1="60" y1="-10" x2="60" y2="10" />
+      </g>
+    </g>
+
+    <!-- Label Under Device -->
+    <text x="170" y="570" font-family="'JetBrains Mono', monospace" font-size="11" fill="#FFFFFF" text-anchor="middle">DARK OBSIDIAN THEME</text>
+  </g>
+
+  <!-- DEVICE 2: MOBILE LIGHT MODE (RIGHT) -->
+  <g transform="translate(680, 130)">
+    <!-- Phone Outer Chassis -->
+    <rect x="0" y="0" width="340" height="540" rx="36" fill="#E5E5EA" stroke="#D1D1D6" stroke-width="2" filter="drop-shadow(0 20px 40px rgba(0,0,0,0.6))" />
+    <!-- Screen Bezel -->
+    <rect x="8" y="8" width="324" height="524" rx="28" fill="#FAFAFC" />
+
+    <!-- Speaker Notch -->
+    <rect x="122" y="14" width="80" height="18" rx="9" fill="#D1D1D6" />
+
+    <!-- MOBILE FLOATING FROSTED GLASS NAVBAR (LIGHT THEME) -->
+    <g transform="translate(32, 42)">
+      <!-- Left Asterisk Icon -->
+      <rect x="0" y="0" width="32" height="32" rx="10" fill="#FFFFFF" fill-opacity="0.8" stroke="#000000" stroke-opacity="0.08" stroke-width="1" />
+      <g transform="translate(16, 16)" stroke="#111111" stroke-width="1.6" stroke-linecap="round">
+        <line x1="0" y1="-6" x2="0" y2="6" />
+        <line x1="-6" y1="0" x2="6" y2="0" />
+        <line x1="-4" y1="-4" x2="4" y2="4" />
+        <line x1="-4" y1="4" x2="4" y2="-4" />
+      </g>
+
+      <!-- Center Nav Pill -->
+      <rect x="38" y="0" width="184" height="32" rx="10" fill="#FFFFFF" fill-opacity="0.85" stroke="#000000" stroke-opacity="0.08" stroke-width="1" />
+      
+      <!-- Icon 1: Active TTS -->
+      <rect x="41" y="3" width="32" height="26" rx="7" fill="#0071E3" />
+      <path d="M54 16 L54 16 M57 13 L57 19 M60 10 L60 22 M63 14 L63 18" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" />
+
+      <!-- Icon 2: STT Mic -->
+      <circle cx="86" cy="14" r="3.5" stroke="#6E6E73" stroke-width="1.5" />
+      <path d="M86 18 L86 21" stroke="#6E6E73" stroke-width="1.5" />
+
+      <!-- Icon 3: Voice Lab Sparkles -->
+      <path d="M117 11 L119 16 L124 16 L120 19 L122 24 L117 21 L112 24 L114 19 L110 16 L115 16 Z" fill="#6E6E73" transform="scale(0.65) translate(60, -2)" />
+
+      <!-- Icon 4: Personas -->
+      <circle cx="150" cy="13" r="3.5" stroke="#6E6E73" stroke-width="1.5" />
+      <path d="M144 22 C144 19 147 18 150 18 C153 18 156 19 156 22" stroke="#6E6E73" stroke-width="1.5" fill="none" />
+
+      <!-- Icon 5: Library Archive -->
+      <rect x="178" y="11" width="12" height="11" rx="2" stroke="#6E6E73" stroke-width="1.5" fill="none" />
+
+      <!-- Right: Theme Switcher (Sun) -->
+      <rect x="228" y="0" width="32" height="32" rx="10" fill="#FFFFFF" fill-opacity="0.8" stroke="#000000" stroke-opacity="0.08" stroke-width="1" />
+      <circle cx="244" cy="16" r="4.5" fill="#F59E0B" />
+    </g>
+
+    <!-- Mobile Hero Content Inside Phone (Light Mode) -->
+    <g transform="translate(24, 88)">
+      <text x="138" y="24" font-family="'JetBrains Mono', monospace" font-size="8.5" fill="#0071E3" text-anchor="middle">24kHz GEMINI 3.8 CORE</text>
+      
+      <text x="138" y="52" font-family="-apple-system, system-ui, sans-serif" font-size="24" font-weight="300" fill="#111111" text-anchor="middle">
+        Acoustic <tspan font-weight="600" fill="#0071E3">Studio.</tspan>
+      </text>
+
+      <!-- Mini 3D Sphere -->
+      <circle cx="138" cy="120" r="40" fill="url(#orb-core)" filter="drop-shadow(0 0 15px rgba(0,113,227,0.3))" />
+      <ellipse cx="128" cy="106" rx="14" ry="8" fill="#FFFFFF" fill-opacity="0.5" />
+
+      <!-- Mobile Script Card (Light) -->
+      <rect x="0" y="180" width="276" height="140" rx="12" fill="#FFFFFF" stroke="#000000" stroke-opacity="0.08" stroke-width="1" />
+      <text x="14" y="202" font-family="'JetBrains Mono', monospace" font-size="9" fill="#86868B">SPEECH SCRIPT</text>
+      
+      <text x="14" y="226" font-family="-apple-system, system-ui, sans-serif" font-size="11" fill="#111111">"A quiet dawn in the mountains."</text>
+      <text x="14" y="244" font-family="-apple-system, system-ui, sans-serif" font-size="11" fill="#0071E3">&lt;breath&gt; Natural human cadence.</text>
+
+      <!-- Mobile Synthesize Button -->
+      <rect x="14" y="270" width="248" height="34" rx="8" fill="#0071E3" />
+      <text x="138" y="291" font-family="-apple-system, system-ui, sans-serif" font-size="11" font-weight="600" fill="#FFFFFF" text-anchor="middle">Synthesize 24kHz Master</text>
+
+      <!-- Mobile Waveform Player Card -->
+      <rect x="0" y="332" width="276" height="85" rx="12" fill="#FFFFFF" stroke="#0071E3" stroke-opacity="0.3" stroke-width="1" />
+      <text x="14" y="352" font-family="-apple-system, system-ui, sans-serif" font-size="10.5" font-weight="600" fill="#111111">Kore Persona</text>
+      <text x="262" y="352" font-family="'JetBrains Mono', monospace" font-size="9.5" fill="#0071E3" text-anchor="end">00:04.2</text>
+    </g>
+
+    <!-- Label Under Device -->
+    <text x="170" y="570" font-family="'JetBrains Mono', monospace" font-size="11" fill="#FFFFFF" text-anchor="middle">CLEAN LIGHT THEME</text>
+  </g>
+</svg>

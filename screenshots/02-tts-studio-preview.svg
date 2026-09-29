@@ -1,0 +1,282 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" fill="none">
+  <defs>
+    <radialGradient id="tts-bg" cx="50%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#141720" />
+      <stop offset="70%" stop-color="#0A0B0D" />
+      <stop offset="100%" stop-color="#07080A" />
+    </radialGradient>
+    <pattern id="tts-dots" x="0" y="0" width="32" height="32" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#FFFFFF" fill-opacity="0.04" />
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="720" fill="url(#tts-bg)" />
+  <rect width="1280" height="720" fill="url(#tts-dots)" />
+
+  <!-- STUDIO SECTION HEADER -->
+  <g transform="translate(80, 50)">
+    <text x="0" y="0" font-family="'JetBrains Mono', monospace" font-size="11" fill="#0071E3" letter-spacing="1.5">[ S² NEURAL SYNTHESIZER ]</text>
+    <text x="0" y="32" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', sans-serif" font-size="28" font-weight="600" fill="#FFFFFF" letter-spacing="-0.5">Text to Speech Studio</text>
+    <text x="0" y="54" font-family="-apple-system, system-ui, sans-serif" font-size="13" fill="#86868B">Ultra-realistic 24kHz acoustic voice generation with natural micro-pauses and expressive nuances.</text>
+
+    <!-- Script Preset Pills -->
+    <g transform="translate(680, 10)">
+      <rect x="0" y="0" width="165" height="30" rx="15" fill="#0071E3" />
+      <text x="82" y="19" font-family="-apple-system, system-ui, sans-serif" font-size="11" font-weight="600" fill="#FFFFFF" text-anchor="middle">Conversational Story</text>
+
+      <rect x="175" y="0" width="130" height="30" rx="15" fill="#FFFFFF" fill-opacity="0.05" stroke="#FFFFFF" stroke-opacity="0.1" stroke-width="1" />
+      <text x="240" y="19" font-family="-apple-system, system-ui, sans-serif" font-size="11" fill="#A1A1A6" text-anchor="middle">Deep Documentary</text>
+
+      <rect x="315" y="0" width="115" height="30" rx="15" fill="#FFFFFF" fill-opacity="0.05" stroke="#FFFFFF" stroke-opacity="0.1" stroke-width="1" />
+      <text x="372" y="19" font-family="-apple-system, system-ui, sans-serif" font-size="11" fill="#A1A1A6" text-anchor="middle">Tech Podcast</text>
+    </g>
+  </g>
+
+  <!-- LEFT COLUMN: SCRIPT COMPOSITION (WIDTH: 660px) -->
+  <g transform="translate(80, 140)">
+    <!-- Main Card -->
+    <rect x="0" y="0" width="660" height="320" rx="16" fill="#151619" stroke="#FFFFFF" stroke-opacity="0.09" stroke-width="1" filter="drop-shadow(0 12px 30px rgba(0,0,0,0.5))" />
+    
+    <!-- Header inside Card -->
+    <text x="24" y="32" font-family="'JetBrains Mono', monospace" font-size="11" fill="#86868B" letter-spacing="1">SPEECH SCRIPT CONTENT</text>
+
+    <!-- Enhance Nuance Button -->
+    <g transform="translate(510, 16)">
+      <rect x="0" y="0" width="126" height="26" rx="13" fill="#0071E3" fill-opacity="0.15" stroke="#0071E3" stroke-opacity="0.4" stroke-width="1" />
+      <!-- Wand Icon -->
+      <path d="M14 13 L22 5 M18 9 L20 11" stroke="#0071E3" stroke-width="1.5" stroke-linecap="round" />
+      <text x="68" y="17" font-family="-apple-system, system-ui, sans-serif" font-size="11" font-weight="600" fill="#0071E3" text-anchor="middle">Enhance Nuance</text>
+    </g>
+
+    <!-- Textarea Box -->
+    <rect x="24" y="54" width="612" height="190" rx="12" fill="#0F1012" stroke="#FFFFFF" stroke-opacity="0.08" stroke-width="1" />
+    
+    <text x="40" y="90" font-family="-apple-system, system-ui, sans-serif" font-size="14.5" fill="#FFFFFF" line-height="24">
+      There was something unforgettable about that quiet dawn in the mountains.
+    </text>
+    <text x="40" y="118" font-family="-apple-system, system-ui, sans-serif" font-size="14.5" fill="#0071E3">
+      &lt;breath&gt;
+    </text>
+    <text x="105" y="118" font-family="-apple-system, system-ui, sans-serif" font-size="14.5" fill="#FFFFFF">
+      The fog lingered just above the pine trees, and for the first
+    </text>
+    <text x="40" y="146" font-family="-apple-system, system-ui, sans-serif" font-size="14.5" fill="#FFFFFF">
+      time in months, everything slowed down. <tspan fill="#0071E3">|mhm|</tspan> It felt truly human.
+    </text>
+
+    <!-- Bottom Toolbar with Nuance Tags -->
+    <g transform="translate(24, 260)">
+      <line x1="0" y1="0" x2="612" y2="0" stroke="#FFFFFF" stroke-opacity="0.06" stroke-width="1" />
+
+      <text x="0" y="24" font-family="'JetBrains Mono', monospace" font-size="10" fill="#86868B">TAGS:</text>
+      
+      <!-- Tag Pills -->
+      <rect x="42" y="10" width="62" height="20" rx="4" fill="#FFFFFF" fill-opacity="0.06" stroke="#FFFFFF" stroke-opacity="0.08" stroke-width="1" />
+      <text x="73" y="24" font-family="'JetBrains Mono', monospace" font-size="10" fill="#A1A1A6" text-anchor="middle">&lt;breath&gt;</text>
+
+      <rect x="112" y="10" width="54" height="20" rx="4" fill="#FFFFFF" fill-opacity="0.06" stroke="#FFFFFF" stroke-opacity="0.08" stroke-width="1" />
+      <text x="139" y="24" font-family="'JetBrains Mono', monospace" font-size="10" fill="#A1A1A6" text-anchor="middle">&lt;sigh&gt;</text>
+
+      <rect x="174" y="10" width="60" height="20" rx="4" fill="#FFFFFF" fill-opacity="0.06" stroke="#FFFFFF" stroke-opacity="0.08" stroke-width="1" />
+      <text x="204" y="24" font-family="'JetBrains Mono', monospace" font-size="10" fill="#A1A1A6" text-anchor="middle">&lt;laugh&gt;</text>
+
+      <rect x="242" y="10" width="50" height="20" rx="4" fill="#FFFFFF" fill-opacity="0.06" stroke="#FFFFFF" stroke-opacity="0.08" stroke-width="1" />
+      <text x="267" y="24" font-family="'JetBrains Mono', monospace" font-size="10" fill="#A1A1A6" text-anchor="middle">|mhm|</text>
+
+      <!-- Metrics -->
+      <text x="612" y="24" font-family="'JetBrains Mono', monospace" font-size="11" fill="#86868B" text-anchor="end">
+        184 chars · 32 words · <tspan fill="#0071E3">~14s</tspan>
+      </text>
+    </g>
+
+    <!-- VOICE PERSONAS COMPACT ROW (Below Script Card) -->
+    <g transform="translate(0, 340)">
+      <rect x="0" y="0" width="660" height="175" rx="16" fill="#151619" stroke="#FFFFFF" stroke-opacity="0.09" stroke-width="1" />
+      
+      <text x="24" y="30" font-family="'JetBrains Mono', monospace" font-size="11" fill="#86868B" letter-spacing="1">ACTIVE VOICE PERSONA</text>
+      <text x="636" y="30" font-family="'JetBrains Mono', monospace" font-size="10" fill="#86868B" text-anchor="end">5 NEURAL VOICES · <tspan fill="#0071E3">24kHz</tspan></text>
+
+      <!-- Persona Cards -->
+      <!-- Kore (Selected) -->
+      <g transform="translate(24, 46)">
+        <rect x="0" y="0" width="112" height="105" rx="10" fill="#151619" stroke="#0071E3" stroke-width="1.5" filter="drop-shadow(0 4px 12px rgba(0,113,227,0.25))" />
+        <circle cx="96" cy="18" r="3" fill="#0071E3" />
+        <text x="14" y="24" font-family="-apple-system, system-ui, sans-serif" font-size="13" font-weight="600" fill="#FFFFFF">Kore</text>
+        <text x="14" y="44" font-family="-apple-system, system-ui, sans-serif" font-size="10" fill="#A1A1A6">Warm &amp; gentle</text>
+        <text x="14" y="60" font-family="-apple-system, system-ui, sans-serif" font-size="10" fill="#86868B">storyteller</text>
+        <text x="14" y="90" font-family="'JetBrains Mono', monospace" font-size="9" fill="#0071E3">FEMALE</text>
+      </g>
+
+      <!-- Charon -->
+      <g transform="translate(148, 46)">
+        <rect x="0" y="0" width="112" height="105" rx="10" fill="#151619" fill-opacity="0.6" stroke="#FFFFFF" stroke-opacity="0.08" stroke-width="1" />
+        <text x="14" y="24" font-family="-apple-system, system-ui, sans-serif" font-size="13" font-weight="600" fill="#FFFFFF">Charon</text>
+        <text x="14" y="44" font-family="-apple-system, system-ui, sans-serif" font-size="10" fill="#A1A1A6">Deep &amp; baritone</text>
+        <text x="14" y="60" font-family="-apple-system, system-ui, sans-serif" font-size="10" fill="#86868B">documentary</text>
+        <text x="14" y="90" font-family="'JetBrains Mono', monospace" font-size="9" fill="#86868B">MALE</text>
+      </g>
+
+      <!-- Puck -->
+      <g transform="translate(272, 46)">
+        <rect x="0" y="0" width="112" height="105" rx="10" fill="#151619" fill-opacity="0.6" stroke="#FFFFFF" stroke-opacity="0.08" stroke-width="1" />
+        <text x="14" y="24" font-family="-apple-system, system-ui, sans-serif" font-size="13" font-weight="600" fill="#FFFFFF">Puck</text>
+        <text x="14" y="44" font-family="-apple-system, system-ui, sans-serif" font-size="10" fill="#A1A1A6">Crisp &amp; dynamic</text>
+        <text x="14" y="60" font-family="-apple-system, system-ui, sans-serif" font-size="10" fill="#86868B">tech keynote</text>
+        <text x="14" y="90" font-family="'JetBrains Mono', monospace" font-size="9" fill="#86868B">MALE</text>
+      </g>
+
+      <!-- Zephyr -->
+      <g transform="translate(396, 46)">
+        <rect x="0" y="0" width="112" height="105" rx="10" fill="#151619" fill-opacity="0.6" stroke="#FFFFFF" stroke-opacity="0.08" stroke-width="1" />
+        <text x="14" y="24" font-family="-apple-system, system-ui, sans-serif" font-size="13" font-weight="600" fill="#FFFFFF">Zephyr</text>
+        <text x="14" y="44" font-family="-apple-system, system-ui, sans-serif" font-size="10" fill="#A1A1A6">Breathy calm</text>
+        <text x="14" y="60" font-family="-apple-system, system-ui, sans-serif" font-size="10" fill="#86868B">meditation</text>
+        <text x="14" y="90" font-family="'JetBrains Mono', monospace" font-size="9" fill="#86868B">FEMALE</text>
+      </g>
+
+      <!-- Fenrir -->
+      <g transform="translate(520, 46)">
+        <rect x="0" y="0" width="116" height="105" rx="10" fill="#151619" fill-opacity="0.6" stroke="#FFFFFF" stroke-opacity="0.08" stroke-width="1" />
+        <text x="14" y="24" font-family="-apple-system, system-ui, sans-serif" font-size="13" font-weight="600" fill="#FFFFFF">Fenrir</text>
+        <text x="14" y="44" font-family="-apple-system, system-ui, sans-serif" font-size="10" fill="#A1A1A6">Cinematic intense</text>
+        <text x="14" y="60" font-family="-apple-system, system-ui, sans-serif" font-size="10" fill="#86868B">epic trailer</text>
+        <text x="14" y="90" font-family="'JetBrains Mono', monospace" font-size="9" fill="#86868B">MALE</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- RIGHT COLUMN: MASTER OUTPUT & WAVEFORM (WIDTH: 440px) -->
+  <g transform="translate(760, 140)">
+    <!-- Controls & Direction Card -->
+    <rect x="0" y="0" width="440" height="230" rx="16" fill="#151619" stroke="#FFFFFF" stroke-opacity="0.09" stroke-width="1" />
+    
+    <text x="24" y="32" font-family="'JetBrains Mono', monospace" font-size="11" fill="#86868B" letter-spacing="1">VOCAL DIRECTION &amp; TIMBRE</text>
+    
+    <!-- Direction Input -->
+    <rect x="24" y="46" width="392" height="38" rx="10" fill="#0F1012" stroke="#FFFFFF" stroke-opacity="0.08" stroke-width="1" />
+    <text x="36" y="70" font-family="-apple-system, system-ui, sans-serif" font-size="12" fill="#FFFFFF">Warm, conversational tone with authentic pauses</text>
+
+    <!-- Engine Toggle -->
+    <text x="24" y="112" font-family="'JetBrains Mono', monospace" font-size="10" fill="#86868B" letter-spacing="1">ACOUSTIC NEURAL ENGINE</text>
+    
+    <g transform="translate(24, 124)">
+      <rect x="0" y="0" width="190" height="42" rx="10" fill="#0F1012" stroke="#0071E3" stroke-width="1.5" />
+      <text x="14" y="20" font-family="-apple-system, system-ui, sans-serif" font-size="11" font-weight="600" fill="#FFFFFF">Expressive Core</text>
+      <text x="14" y="34" font-family="-apple-system, system-ui, sans-serif" font-size="9.5" fill="#0071E3">Gemini 3.8 Flash</text>
+
+      <rect x="202" y="0" width="190" height="42" rx="10" fill="#0F1012" stroke="#FFFFFF" stroke-opacity="0.08" stroke-width="1" />
+      <text x="216" y="20" font-family="-apple-system, system-ui, sans-serif" font-size="11" font-weight="600" fill="#A1A1A6">Speed Core</text>
+      <text x="216" y="34" font-family="-apple-system, system-ui, sans-serif" font-size="9.5" fill="#86868B">Flash Lite</text>
+    </g>
+
+    <!-- Synthesize Action Button -->
+    <g transform="translate(24, 180)">
+      <rect x="0" y="0" width="392" height="38" rx="10" fill="#0071E3" filter="drop-shadow(0 4px 14px rgba(0,113,227,0.35))" />
+      <text x="196" y="24" font-family="-apple-system, system-ui, sans-serif" font-size="12.5" font-weight="600" fill="#FFFFFF" text-anchor="middle">Synthesize Master Audio (24kHz)</text>
+    </g>
+
+    <!-- MASTER WAVEFORM PLAYER CARD (Below) -->
+    <g transform="translate(0, 250)">
+      <rect x="0" y="0" width="440" height="265" rx="16" fill="#151619" stroke="#0071E3" stroke-opacity="0.4" stroke-width="1" filter="drop-shadow(0 8px 30px rgba(0,113,227,0.15))" />
+      
+      <!-- Player Header Row -->
+      <text x="24" y="32" font-family="-apple-system, system-ui, sans-serif" font-size="13" font-weight="600" fill="#FFFFFF">Quiet dawn in the mountains...</text>
+      <text x="24" y="50" font-family="'JetBrains Mono', monospace" font-size="10.5" fill="#86868B">
+        <tspan fill="#0071E3" font-weight="600">Persona: Kore</tspan> · 24kHz WAV · 16-Bit
+      </text>
+
+      <!-- Speed, Loop, Download Buttons -->
+      <rect x="300" y="20" width="36" height="24" rx="6" fill="#FFFFFF" fill-opacity="0.05" stroke="#FFFFFF" stroke-opacity="0.1" stroke-width="1" />
+      <text x="318" y="36" font-family="'JetBrains Mono', monospace" font-size="10" fill="#A1A1A6" text-anchor="middle">1.0x</text>
+
+      <rect x="342" y="20" width="28" height="24" rx="6" fill="#0071E3" />
+      <path d="M352 30 L356 34 L360 30" stroke="#FFFFFF" stroke-width="1.4" stroke-linecap="round" fill="none" />
+
+      <rect x="376" y="20" width="40" height="24" rx="6" fill="#0071E3" />
+      <text x="396" y="36" font-family="-apple-system, system-ui, sans-serif" font-size="10" font-weight="600" fill="#FFFFFF" text-anchor="middle">WAV</text>
+
+      <!-- Waveform Canvas Graphic -->
+      <rect x="24" y="68" width="392" height="90" rx="10" fill="#0F1012" stroke="#FFFFFF" stroke-opacity="0.06" stroke-width="1" />
+      
+      <!-- Waveform Bars (Rendered) -->
+      <g transform="translate(36, 113)">
+        <!-- Played Bars (Bright Blue & White) -->
+        <rect x="0" y="-12" width="3" height="24" rx="1.5" fill="#0071E3" />
+        <rect x="6" y="-22" width="3" height="44" rx="1.5" fill="#0071E3" />
+        <rect x="12" y="-30" width="3" height="60" rx="1.5" fill="#0071E3" />
+        <rect x="18" y="-15" width="3" height="30" rx="1.5" fill="#0071E3" />
+        <rect x="24" y="-35" width="3" height="70" rx="1.5" fill="#0071E3" />
+        <rect x="30" y="-26" width="3" height="52" rx="1.5" fill="#0071E3" />
+        <rect x="36" y="-18" width="3" height="36" rx="1.5" fill="#0071E3" />
+        <rect x="42" y="-32" width="3" height="64" rx="1.5" fill="#0071E3" />
+        <rect x="48" y="-28" width="3" height="56" rx="1.5" fill="#0071E3" />
+        <rect x="54" y="-14" width="3" height="28" rx="1.5" fill="#0071E3" />
+        <rect x="60" y="-24" width="3" height="48" rx="1.5" fill="#0071E3" />
+        <rect x="66" y="-38" width="3" height="76" rx="1.5" fill="#0071E3" />
+        <rect x="72" y="-30" width="3" height="60" rx="1.5" fill="#0071E3" />
+        <rect x="78" y="-18" width="3" height="36" rx="1.5" fill="#0071E3" />
+        <rect x="84" y="-22" width="3" height="44" rx="1.5" fill="#0071E3" />
+        <rect x="90" y="-34" width="3" height="68" rx="1.5" fill="#0071E3" />
+        <rect x="96" y="-26" width="3" height="52" rx="1.5" fill="#0071E3" />
+        <rect x="102" y="-15" width="3" height="30" rx="1.5" fill="#0071E3" />
+        <rect x="108" y="-28" width="3" height="56" rx="1.5" fill="#0071E3" />
+        <rect x="114" y="-32" width="3" height="64" rx="1.5" fill="#0071E3" />
+        <rect x="120" y="-20" width="3" height="40" rx="1.5" fill="#0071E3" />
+        <rect x="126" y="-10" width="3" height="20" rx="1.5" fill="#0071E3" />
+        <!-- Current Playhead Scrubber Bar -->
+        <rect x="132" y="-38" width="4" height="76" rx="2" fill="#FFFFFF" filter="drop-shadow(0 0 6px #FFFFFF)" />
+        
+        <!-- Unplayed Bars (Subtle Gray) -->
+        <rect x="139" y="-28" width="3" height="56" rx="1.5" fill="#FFFFFF" fill-opacity="0.14" />
+        <rect x="145" y="-18" width="3" height="36" rx="1.5" fill="#FFFFFF" fill-opacity="0.14" />
+        <rect x="151" y="-32" width="3" height="64" rx="1.5" fill="#FFFFFF" fill-opacity="0.14" />
+        <rect x="157" y="-24" width="3" height="48" rx="1.5" fill="#FFFFFF" fill-opacity="0.14" />
+        <rect x="163" y="-16" width="3" height="32" rx="1.5" fill="#FFFFFF" fill-opacity="0.14" />
+        <rect x="169" y="-26" width="3" height="52" rx="1.5" fill="#FFFFFF" fill-opacity="0.14" />
+        <rect x="175" y="-34" width="3" height="68" rx="1.5" fill="#FFFFFF" fill-opacity="0.14" />
+        <rect x="181" y="-22" width="3" height="44" rx="1.5" fill="#FFFFFF" fill-opacity="0.14" />
+        <rect x="187" y="-12" width="3" height="24" rx="1.5" fill="#FFFFFF" fill-opacity="0.14" />
+        <rect x="193" y="-28" width="3" height="56" rx="1.5" fill="#FFFFFF" fill-opacity="0.14" />
+        <rect x="199" y="-30" width="3" height="60" rx="1.5" fill="#FFFFFF" fill-opacity="0.14" />
+        <rect x="205" y="-18" width="3" height="36" rx="1.5" fill="#FFFFFF" fill-opacity="0.14" />
+        <rect x="211" y="-10" width="3" height="20" rx="1.5" fill="#FFFFFF" fill-opacity="0.14" />
+        <rect x="217" y="-22" width="3" height="44" rx="1.5" fill="#FFFFFF" fill-opacity="0.14" />
+        <rect x="223" y="-32" width="3" height="64" rx="1.5" fill="#FFFFFF" fill-opacity="0.14" />
+        <rect x="229" y="-25" width="3" height="50" rx="1.5" fill="#FFFFFF" fill-opacity="0.14" />
+        <rect x="235" y="-14" width="3" height="28" rx="1.5" fill="#FFFFFF" fill-opacity="0.14" />
+        <rect x="241" y="-28" width="3" height="56" rx="1.5" fill="#FFFFFF" fill-opacity="0.14" />
+        <rect x="247" y="-18" width="3" height="36" rx="1.5" fill="#FFFFFF" fill-opacity="0.14" />
+        <rect x="253" y="-8" width="3" height="16" rx="1.5" fill="#FFFFFF" fill-opacity="0.14" />
+      </g>
+
+      <!-- Time Indicators -->
+      <text x="24" y="174" font-family="'JetBrains Mono', monospace" font-size="11" fill="#FFFFFF">00:04.2</text>
+      <text x="220" y="174" font-family="'JetBrains Mono', monospace" font-size="9.5" fill="#86868B" text-anchor="middle">64 BARS · 24.0 kHz MASTER</text>
+      <text x="416" y="174" font-family="'JetBrains Mono', monospace" font-size="11" fill="#86868B" text-anchor="end">00:14.0</text>
+
+      <!-- Transport Controls -->
+      <g transform="translate(24, 198)">
+        <!-- Play/Pause Button -->
+        <rect x="42" y="0" width="40" height="40" rx="10" fill="#FFFFFF" />
+        <path d="M57 14 L57 26 M63 14 L63 26" stroke="#000000" stroke-width="2.5" stroke-linecap="round" />
+
+        <!-- Rewind 5s -->
+        <rect x="0" y="4" width="32" height="32" rx="8" fill="#FFFFFF" fill-opacity="0.05" />
+        <path d="M18 20 L22 16 M18 20 L22 24 M13 20 L17 16 M13 20 L17 24" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round" fill="none" />
+
+        <!-- Fast Forward 5s -->
+        <rect x="92" y="4" width="32" height="32" rx="8" fill="#FFFFFF" fill-opacity="0.05" />
+        <path d="M103 16 L107 20 M103 24 L107 20 M108 16 L112 20 M108 24 L112 20" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round" fill="none" />
+
+        <!-- Volume Slider -->
+        <g transform="translate(260, 16)">
+          <!-- Speaker Icon -->
+          <path d="M0 4 L4 4 L8 0 L8 16 L4 12 L0 12 Z" fill="#86868B" />
+          <line x1="18" y1="8" x2="120" y2="8" stroke="#FFFFFF" stroke-opacity="0.15" stroke-width="3" stroke-linecap="round" />
+          <line x1="18" y1="8" x2="95" y2="8" stroke="#0071E3" stroke-width="3" stroke-linecap="round" />
+          <circle cx="95" cy="8" r="4.5" fill="#FFFFFF" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

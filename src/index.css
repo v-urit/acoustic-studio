@@ -1,0 +1,115 @@
+@import "tailwindcss";
+
+@variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  :root {
+    --background: #fafafc;
+    --surface: #ffffff;
+    --surface-elevated: #f4f4f7;
+    --surface-glass: rgba(255, 255, 255, 0.72);
+    --border-subtle: rgba(0, 0, 0, 0.08);
+    --border-highlight: rgba(0, 113, 227, 0.4);
+    --accent: #0071e3;
+    --accent-glow: rgba(0, 113, 227, 0.15);
+    --accent-hover: #007bf5;
+    --text-primary: #111111;
+    --text-secondary: #6e6e73;
+    --text-muted: #86868b;
+  }
+
+  .dark {
+    --background: #0f1012;
+    --surface: #151619;
+    --surface-elevated: #1b1d22;
+    --surface-glass: rgba(21, 22, 25, 0.75);
+    --border-subtle: rgba(255, 255, 255, 0.08);
+    --border-highlight: rgba(0, 113, 227, 0.4);
+    --accent: #0071e3;
+    --accent-glow: rgba(0, 113, 227, 0.25);
+    --accent-hover: #007bf5;
+    --text-primary: #ffffff;
+    --text-secondary: #a1a1a6;
+    --text-muted: #86868b;
+  }
+
+  body {
+    background-color: var(--background);
+    color: var(--text-primary);
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Plus Jakarta Sans", "Segoe UI", Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  /* Monospace fonts for telemetry, audio bitrates, timecodes */
+  .font-mono-numeric {
+    font-family: 'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace;
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+/* Studio 28K Minimalist Scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(120, 120, 128, 0.25);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 113, 227, 0.5);
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.safe-area-pb {
+  padding-bottom: max(1rem, env(safe-area-inset-bottom));
+}
+
+/* Subtle Technical Precision Grid */
+.augen-grid-pattern {
+  background-image: radial-gradient(rgba(0, 0, 0, 0.06) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+.dark .augen-grid-pattern {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+/* Precision Hairline Corner Marks */
+.corner-crosshair {
+  position: absolute;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.2);
+  user-select: none;
+  pointer-events: none;
+}
+.dark .corner-crosshair {
+  color: rgba(255, 255, 255, 0.22);
+}
+.corner-crosshair-tl { top: -6px; left: -6px; }
+.corner-crosshair-tr { top: -6px; right: -6px; }
+.corner-crosshair-bl { bottom: -6px; left: -6px; }
+.corner-crosshair-br { bottom: -6px; right: -6px; }
+
+/* Frosted glass glow */
+.augen-card-glow {
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.06);
+}
+.dark .augen-card-glow {
+  box-shadow: 0 10px 30px -10px rgba(0, 113, 227, 0.12);
+}

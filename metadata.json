@@ -1,0 +1,6 @@
+{
+  "name": "Augen Voice — Neural Speech & Transcription Engine",
+  "description": "Hyper-natural AI Text-to-Speech and high-fidelity Speech-to-Text intelligence powered by Gemini 3.8 Voice & 3.5 Transcribe.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

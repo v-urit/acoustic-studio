@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" fill="none">
+  <defs>
+    <!-- Background Gradients -->
+    <radialGradient id="bg-radial" cx="50%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#141720" />
+      <stop offset="60%" stop-color="#0A0B0D" />
+      <stop offset="100%" stop-color="#07080A" />
+    </radialGradient>
+    
+    <radialGradient id="blue-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#0071E3" stop-opacity="0.35" />
+      <stop offset="60%" stop-color="#0071E3" stop-opacity="0.1" />
+      <stop offset="100%" stop-color="#0071E3" stop-opacity="0" />
+    </radialGradient>
+
+    <linearGradient id="orb-core" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0084FF" />
+      <stop offset="50%" stop-color="#0051B3" />
+      <stop offset="100%" stop-color="#001F4D" />
+    </linearGradient>
+
+    <linearGradient id="glass-card" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="rgba(255, 255, 255, 0.08)" />
+      <stop offset="100%" stop-color="rgba(255, 255, 255, 0.02)" />
+    </linearGradient>
+
+    <!-- Dot Pattern -->
+    <pattern id="grid-dots" x="0" y="0" width="32" height="32" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#FFFFFF" fill-opacity="0.05" />
+    </pattern>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1280" height="720" fill="url(#bg-radial)" />
+  <rect width="1280" height="720" fill="url(#grid-dots)" />
+
+  <!-- Top Blue Radiance -->
+  <circle cx="640" cy="380" r="320" fill="url(#blue-glow)" />
+
+  <!-- FLOATING FROSTED GLASS NAVBAR -->
+  <g transform="translate(360, 24)">
+    <!-- Asterisk Button Left -->
+    <rect x="-56" y="0" width="44" height="44" rx="22" fill="#151619" fill-opacity="0.85" stroke="#FFFFFF" stroke-opacity="0.14" stroke-width="1" />
+    <!-- 8-Point Asterisk Icon -->
+    <g transform="translate(-34, 22)" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round">
+      <line x1="0" y1="-8" x2="0" y2="8" />
+      <line x1="-8" y1="0" x2="8" y2="0" />
+      <line x1="-5.6" y1="-5.6" x2="5.6" y2="5.6" />
+      <line x1="-5.6" y1="5.6" x2="5.6" y2="-5.6" />
+    </g>
+
+    <!-- Main Navigation Bar -->
+    <rect x="0" y="0" width="560" height="44" rx="22" fill="#151619" fill-opacity="0.85" stroke="#FFFFFF" stroke-opacity="0.14" stroke-width="1" filter="drop-shadow(0 8px 24px rgba(0,0,0,0.5))" />
+    
+    <!-- Active Pill on Text to Speech -->
+    <rect x="4" y="4" width="124" height="36" rx="18" fill="#0071E3" filter="drop-shadow(0 2px 8px rgba(0,113,227,0.4))" />
+    <text x="66" y="27" font-family="-apple-system, system-ui, sans-serif" font-size="12" font-weight="600" fill="#FFFFFF" text-anchor="middle">Text to Speech</text>
+
+    <!-- Inactive Tabs -->
+    <text x="180" y="27" font-family="-apple-system, system-ui, sans-serif" font-size="12" font-weight="500" fill="#A1A1A6" text-anchor="middle">Transcribe</text>
+    <text x="270" y="27" font-family="-apple-system, system-ui, sans-serif" font-size="12" font-weight="500" fill="#A1A1A6" text-anchor="middle">Voice Lab</text>
+    <text x="360" y="27" font-family="-apple-system, system-ui, sans-serif" font-size="12" font-weight="500" fill="#A1A1A6" text-anchor="middle">Personas</text>
+    <text x="450" y="27" font-family="-apple-system, system-ui, sans-serif" font-size="12" font-weight="500" fill="#A1A1A6" text-anchor="middle">Library</text>
+
+    <!-- Theme Switcher Right -->
+    <rect x="572" y="0" width="44" height="44" rx="22" fill="#151619" fill-opacity="0.85" stroke="#FFFFFF" stroke-opacity="0.14" stroke-width="1" />
+    <!-- Moon Icon -->
+    <path d="M598 17 A6 6 0 0 0 590 27 A8 8 0 1 1 598 17 Z" fill="#0071E3" stroke="#0071E3" stroke-width="1.2" />
+  </g>
+
+  <!-- TELEMETRY STATUS PILL -->
+  <g transform="translate(640, 110)">
+    <rect x="-150" y="0" width="300" height="28" rx="14" fill="#FFFFFF" fill-opacity="0.05" stroke="#FFFFFF" stroke-opacity="0.1" stroke-width="1" />
+    <circle cx="-128" cy="14" r="3.5" fill="#10B981" />
+    <text x="2" y="18" font-family="'JetBrains Mono', monospace" font-size="10.5" fill="#A1A1A6" text-anchor="middle" letter-spacing="1">
+      24,000 HZ MASTER CORE · <tspan fill="#0071E3" font-weight="600">GEMINI 3.8 FLASH</tspan>
+    </text>
+  </g>
+
+  <!-- HERO TYPOGRAPHY -->
+  <text x="640" y="180" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', sans-serif" font-size="52" font-weight="300" fill="#FFFFFF" text-anchor="middle" letter-spacing="-1.5">
+    Acoustic
+  </text>
+  <text x="640" y="235" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', sans-serif" font-size="52" font-weight="500" fill="#0071E3" text-anchor="middle" letter-spacing="-1.5">
+    Intelligence.
+  </text>
+  <text x="640" y="275" font-family="-apple-system, system-ui, sans-serif" font-size="14" fill="#A1A1A6" text-anchor="middle" font-weight="400">
+    High-fidelity voice synthesis with human nuance markers, paired with zero-loss neural audio transcription.
+  </text>
+
+  <!-- CENTRAL 3D NEURAL AUDIO CORE ORB -->
+  <g transform="translate(640, 430)">
+    <!-- Outer Orbital Rings -->
+    <ellipse cx="0" cy="0" rx="150" ry="46" fill="none" stroke="#0071E3" stroke-opacity="0.25" stroke-width="1" stroke-dasharray="4 6" />
+    <ellipse cx="0" cy="0" rx="130" ry="130" fill="none" stroke="#FFFFFF" stroke-opacity="0.08" stroke-width="1" />
+    <ellipse cx="0" cy="0" rx="46" ry="150" fill="none" stroke="#0071E3" stroke-opacity="0.3" stroke-width="1" transform="rotate(30)" />
+
+    <!-- Core Sphere -->
+    <circle cx="0" cy="0" r="75" fill="url(#orb-core)" filter="drop-shadow(0 0 45px rgba(0, 113, 227, 0.6))" />
+    
+    <!-- Specular Highlight -->
+    <ellipse cx="-22" cy="-28" rx="30" ry="18" fill="#FFFFFF" fill-opacity="0.35" transform="rotate(-25, -22, -28)" />
+    
+    <!-- Audio Waveform Particles inside/around -->
+    <g stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity="0.9">
+      <line x1="-36" y1="0" x2="-36" y2="0" stroke-width="4" stroke="#80BFFF" />
+      <line x1="-24" y1="-14" x2="-24" y2="14" />
+      <line x1="-12" y1="-26" x2="-12" y2="26" stroke="#00D2FF" stroke-width="2.5" />
+      <line x1="0" y1="-38" x2="0" y2="38" stroke-width="3" />
+      <line x1="12" y1="-28" x2="12" y2="28" stroke="#00D2FF" stroke-width="2.5" />
+      <line x1="24" y1="-16" x2="24" y2="16" />
+      <line x1="36" y1="0" x2="36" y2="0" stroke-width="4" stroke="#80BFFF" />
+    </g>
+
+    <!-- Interactive Label -->
+    <text x="0" y="105" font-family="'JetBrains Mono', monospace" font-size="9" fill="#0071E3" text-anchor="middle" letter-spacing="2">A¹ NEURAL AUDIO SENSOR</text>
+    <text x="0" y="120" font-family="'JetBrains Mono', monospace" font-size="8" fill="#666666" text-anchor="middle" letter-spacing="1">TOUCH &amp; DRAG TO ROTATE 3D SENSOR</text>
+  </g>
+
+  <!-- CTA ACTION BUTTONS -->
+  <g transform="translate(640, 610)">
+    <!-- Primary Button -->
+    <rect x="-185" y="0" width="175" height="42" rx="21" fill="#0071E3" filter="drop-shadow(0 4px 16px rgba(0,113,227,0.35))" />
+    <!-- Audio Waveform Icon -->
+    <path d="M-155 21 L-155 21 M-150 17 L-150 25 M-145 13 L-145 29 M-140 18 L-140 24" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" />
+    <text x="-88" y="26" font-family="-apple-system, system-ui, sans-serif" font-size="13" font-weight="600" fill="#FFFFFF" text-anchor="middle">Synthesize Speech</text>
+
+    <!-- Secondary Button -->
+    <rect x="10" y="0" width="175" height="42" rx="21" fill="#FFFFFF" fill-opacity="0.06" stroke="#FFFFFF" stroke-opacity="0.14" stroke-width="1" />
+    <!-- Mic Icon -->
+    <circle cx="45" cy="18" r="4" fill="none" stroke="#FFFFFF" stroke-width="1.8" />
+    <path d="M45 22 L45 27 M41 27 L49 27" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" />
+    <text x="106" y="26" font-family="-apple-system, system-ui, sans-serif" font-size="13" font-weight="500" fill="#FFFFFF" text-anchor="middle">Transcribe Audio</text>
+  </g>
+
+  <!-- BOTTOM HAIRLINE CORNERS -->
+  <text x="24" y="32" font-family="'JetBrains Mono', monospace" font-size="10" fill="#FFFFFF" fill-opacity="0.2">+</text>
+  <text x="1250" y="32" font-family="'JetBrains Mono', monospace" font-size="10" fill="#FFFFFF" fill-opacity="0.2">+</text>
+  <text x="24" y="700" font-family="'JetBrains Mono', monospace" font-size="10" fill="#FFFFFF" fill-opacity="0.2">+</text>
+  <text x="1250" y="700" font-family="'JetBrains Mono', monospace" font-size="10" fill="#FFFFFF" fill-opacity="0.2">+</text>
+</svg>
